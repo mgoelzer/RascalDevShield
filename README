@@ -1,0 +1,39 @@
+-------------------------------------------------------------------------------
+Setup
+-------------------------------------------------------------------------------
+
+1.  Clone git repo into some location like:  $HOME/Documents/Electronics/Rascal/RascalDevShield
+(that would be the directory in which you should find this file)
+
+2.  Open Eagle and go to Options -> Directories, and append these settings:
+	Libraries:  $HOME/Documents/Electronics/Rascal/RascalDevShield/lbr
+	CAM Jobs:   $HOME/Documents/Electronics/Rascal/RascalDevShield/cam
+    Projects:   $HOME/Documents/Electronics/Rascal/RascalDevShield/RascalDevShield
+
+Note:  colons are how it delimits multiple directories, so put a colon between existing path(s) and these new ones.
+
+3.  Before you can actually use parts from the Rascal.lbr library, you have to open a project and go
+to Library -> Use... and select RascalDevShield/lbr/Rascal.lbr
+
+Then these parts will be available under Edit -> Add
+
+----------------------------------------------------------------------------------
+Contents
+----------------------------------------------------------------------------------
+
+\-- README                                    (this file)
+\-- RascalDevShield                           Eagle project files + Gerbers
+\-- cam                                       Supplementary Eagle cam files
+\-- lbr                                       Supplementary Eagle lbr files
+\-- doc                                       Misc documentation for this project
+
+----------------------------------------------------------------------------------
+Notes
+----------------------------------------------------------------------------------
+The Sparkfun CAD files and Library are included with this project, but newer versions may be available from Sparkfun.
+
+Arduino shield connector spacing imperial:  http://www.arduino.cc/cgi-bin/yabb2/YaBB.pl?num=1280981627/22
+
+Brandon's mechanical design drawing:  ../doc/Rascal mechanical drawing 2010-11-14.PDF
+
+
