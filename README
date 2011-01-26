@@ -26,6 +26,8 @@ Contents
 \-- cam                                       Supplementary Eagle cam files
 \-- lbr                                       Supplementary Eagle lbr files
 \-- doc                                       Misc documentation for this project
+\-- rtm                                       Gerbers that were released for fab
+\-- scripts                                   Utility scripts
 
 ----------------------------------------------------------------------------------
 Notes
